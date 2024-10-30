@@ -1,6 +1,7 @@
 import BtnPrimary from "./BtnPrimary";
 import BtnSecondary from "./BtnSecondary";
 import {useNavigate} from "react-router-dom";
+import BtnTest from "./BtnTest.jsx";
 
 const Header = () => {
   const navigate = useNavigate()
@@ -45,7 +46,7 @@ const Header = () => {
           </li>
         </ul>
         <div className="profile flex gap-5 h-full p-3 items-end text-xl">
-          <BtnPrimary>Register</BtnPrimary>
+          <BtnTest type={"primary"}>Register</BtnTest>
           <BtnSecondary>Login</BtnSecondary>
         </div>
       </nav>
