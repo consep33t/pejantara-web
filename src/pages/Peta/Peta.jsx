@@ -1,13 +1,14 @@
 import { Helmet } from "react-helmet-async";
-const Login = () => {
+
+const Peta = () => {
   return (
     <div>
       <Helmet>
-        <title>Login Page</title>
+        <title>Peta</title>
       </Helmet>
-      <h1>Login Page brayyyyydaa</h1>
+      <h1>Peta</h1>
     </div>
   );
 };
 
-export default Login;
+export default Peta;

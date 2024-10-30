@@ -2,14 +2,14 @@ import { Helmet } from "react-helmet-async";
 import Layanan from "../../components/Layanan";
 import SecondHero from "../../components/SecondHero";
 import Galeri from "../../components/Galeri";
-import DropDown from "../../components/DropDown";
-const Home = () => {
+import PertanyaanUmum from "../../components/PertanyaanUmum";
+const Beranda = () => {
   return (
     <>
       <Helmet>
-        <title>Home Page</title>
+        <title>Beranda</title>
       </Helmet>
-      <div className="home w-full h-screen flex flex-col items-center justify-start">
+      <div className="Beranda w-full h-screen flex flex-col items-center justify-start">
         <div className="hero-container w-full h-[98.6%] flex p-24">
           <div className="hero-title w-2/3 flex mt-28 flex-col">
             <h1 className="text-8xl font-bold text-accent">
@@ -30,9 +30,9 @@ const Home = () => {
       <Layanan />
       <SecondHero />
       <Galeri />
-      <DropDown />
+      <PertanyaanUmum />
     </>
   );
 };
 
-export default Home;
+export default Beranda;
