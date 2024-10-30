@@ -1,5 +1,3 @@
-import React from "react";
-
 const Footer = () => {
   return (
     <>
@@ -7,7 +5,13 @@ const Footer = () => {
         <div className="container mx-auto px-4 border-t border-white mt-4 pt-4">
           <div className="flex justify-between">
             <div className="w-1/3">
-              <img src="./logo header.png" alt="Company logo with a green leaf and the text 'pejantara' underneath" className="mb-4" width="150" height="150" />
+              <img
+                src="./logo header.png"
+                alt="Company logo with a green leaf and the text 'pejantara' underneath"
+                className="mb-4"
+                width="150"
+                height="150"
+              />
             </div>
             <div className="w-1/3">
               <h3 className="font-bold mb-2">About</h3>
@@ -89,15 +93,15 @@ const Footer = () => {
             <p>Copyright © 2024 Agritech by Infinite Learning</p>
             <div className="">
               <div className="flex gap-5">
-              <a href="#" className="hover:underline">
-                Term Of Use
-              </a>
-              <a href="#" className="hover:underline">
-                Privacy Policy
-              </a>
-              <a href="#" className="hover:underline">
-                Security
-              </a>
+                <a href="#" className="hover:underline">
+                  Term Of Use
+                </a>
+                <a href="#" className="hover:underline">
+                  Privacy Policy
+                </a>
+                <a href="#" className="hover:underline">
+                  Security
+                </a>
               </div>
             </div>
           </div>
