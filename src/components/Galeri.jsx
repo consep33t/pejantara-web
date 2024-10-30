@@ -2,8 +2,8 @@ const Galeri = () => {
   return (
     <div className="galeri-container w-full h-screen flex flex-col items-center p-24">
       <div className="layanan-title w-full flex items-center flex-col">
-        <h1 className="text-6xl font-bold">Galeri Pejantara</h1>
-        <p className="text-balance text-center mt-10 text-xl">
+        <h1 className="text-6xl font-bold text-accent">Galeri Pejantara</h1>
+        <p className="text-balance text-center mt-10 text-xl text-accent">
           Selamat datang di Galeri Pejantara , tempat kami menampilkan
           momen-momen terbaik dan dokumentasi kegiatan yang telah kami lakukan.
           Lihatlah berbagai pencapaian kami dalam upaya melestarikan budaya,

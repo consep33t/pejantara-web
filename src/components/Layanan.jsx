@@ -3,8 +3,8 @@ const Layanan = () => {
     <>
       <div className="layanan-container w-full flex flex-col items-center p-24">
         <div className="layanan-title w-full flex items-center flex-col">
-          <h1 className="text-6xl font-bold">Layanan Pejantara</h1>
-          <p className="text-balance text-center mt-10 text-xl">
+          <h1 className="text-6xl font-bold text-accent">Layanan Pejantara</h1>
+          <p className="text-balance text-center mt-10 text-xl text-accent">
             Memberikan solusi inovatif dan berkelanjutan untuk pengelolaan
             sampah di Kota Batam. Mulai dari pengumpulan hingga daur ulang, kami
             berkomitmen untuk menciptakan lingkungan yang bersih dan hijau.
@@ -12,7 +12,7 @@ const Layanan = () => {
             bersih!
           </p>
         </div>
-        <div className="card-layanan-container text-white gap-5 grid grid-cols-3 mt-24">
+        <div className="card-layanan-container text-white gap-10 grid grid-cols-3 mt-24">
           <div className="card-layanan w-[425px] h-[405px] bg-cardlayanan hover:bg-[#6C8776] hover:cursor-pointer hover:scale-105 transition-all duration-150 ease-in-out text-accent transition-all-300 rounded-2xl p-10 shadow-md shadow-black">
             <img src="logo layanan.png" />
             <h1 className="text-2xl font-semibold my-5">title</h1>

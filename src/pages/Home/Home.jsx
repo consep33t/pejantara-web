@@ -12,11 +12,11 @@ const Home = () => {
       <div className="home w-full h-screen flex flex-col items-center justify-start">
         <div className="hero-container w-full h-[98.6%] flex p-24">
           <div className="hero-title w-2/3 flex mt-28 flex-col">
-            <h1 className="text-8xl font-bold">
+            <h1 className="text-8xl font-bold text-accent">
               Selamat Datang Di
               <br /> Pejantara!
             </h1>
-            <p className="text-3xl w-3/4 mt-10 text-balance">
+            <p className="text-3xl w-3/4 mt-10 text-balance text-accent">
               Terima kasih telah bergabung dan menjadi bagian dari gerakan
               peduli lingkungan di Kota Batam. Setiap langkah kecil yang Anda
               ambil akan membantu menjaga kebersihan kota dan berkontribusi pada
