@@ -1,8 +1,19 @@
 /** @type {import('tailwindcss').Config} */
+import daisyui from "daisyui";
+
 export default {
   content: ["./index.html", "./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        primary: "#6C8776",
+        secondary: "45624E",
+        accent: "#273526",
+        secondaryAccent: "#C0CFB2",
+        background: "#E4E6D9",
+        cardlayanan: "#D9D9D9",
+      },
+    },
   },
-  plugins: [],
+  plugins: [daisyui],
 };
