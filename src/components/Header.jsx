@@ -1,7 +1,10 @@
 import BtnPrimary from "./BtnPrimary";
 import BtnSecondary from "./BtnSecondary";
+import {useNavigate} from "react-router-dom";
 
 const Header = () => {
+  const navigate = useNavigate()
+
   return (
     <header className="header w-full h-[108px] px-16">
       <nav className="nav w-full h-full flex justify-between items-center">
@@ -34,6 +37,11 @@ const Header = () => {
             <a className="hover:text-black " href="/contact">
               Maps
             </a>
+          </li>
+          <li>
+            <button className="hover:text-black " onClick={()=>navigate("/contact")}>
+              Test
+            </button>
           </li>
         </ul>
         <div className="profile flex gap-5 h-full p-3 items-end text-xl">
