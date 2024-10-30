@@ -21,17 +21,17 @@ const Header = () => {
             </a>
           </li>
           <li>
-            <a className="hover:text-black " href="/about">
+            <a className="hover:text-black " href="/edukasi">
               Edukasi
             </a>
           </li>
           <li>
-            <a className="hover:text-black " href="/contact">
+            <a className="hover:text-black " href="/berita">
               Berita
             </a>
           </li>
           <li>
-            <a className="hover:text-black " href="/contact">
+            <a className="hover:text-black " href="/maps">
               Maps
             </a>
           </li>
