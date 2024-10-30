@@ -1,4 +1,5 @@
 import BtnPrimary from "./BtnPrimary";
+import BtnSecondary from "./BtnSecondary";
 
 const Header = () => {
   return (
@@ -36,12 +37,8 @@ const Header = () => {
           </li>
         </ul>
         <div className="profile flex gap-5 h-full p-3 items-end text-xl">
-          <BtnPrimary background="primary" stroke="primary" text="white">
-            Register
-          </BtnPrimary>
-          <BtnPrimary background="background" stroke="primary" text="accent">
-            Login
-          </BtnPrimary>
+          <BtnPrimary>Register</BtnPrimary>
+          <BtnSecondary>Login</BtnSecondary>
         </div>
       </nav>
     </header>
