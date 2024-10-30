@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import BtnPrimary from "./BtnPrimary";
 import BtnSecondary from "./BtnSecondary";
 
@@ -16,24 +17,29 @@ const Header = () => {
         </div>
         <ul className="link flex gap-10 h-full p-3 items-end text-xl text-accent no-underline">
           <li className="">
-            <a href="/" className="hover:text-black">
+            <Link className="hover:text-black" to="/">
               Beranda
-            </a>
+            </Link>
           </li>
           <li>
-            <a className="hover:text-black " href="/edukasi">
+            <Link className="hover:text-black" to="/edukasi">
               Edukasi
-            </a>
+            </Link>
           </li>
           <li>
-            <a className="hover:text-black " href="/berita">
+            <Link className="hover:text-black" to="/berita">
               Berita
-            </a>
+            </Link>
           </li>
           <li>
-            <a className="hover:text-black " href="/maps">
-              Maps
-            </a>
+            <Link className="hover:text-black" to="/peta">
+              Peta
+            </Link>
+          </li>
+          <li>
+            <Link className="hover:text-black" to="/tentang-kami">
+              Tentang Kami
+            </Link>
           </li>
         </ul>
         <div className="profile flex gap-5 h-full p-3 items-end text-xl">

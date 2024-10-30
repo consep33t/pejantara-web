@@ -1,14 +1,14 @@
 import { Helmet } from "react-helmet-async";
 
-const Maps = () => {
+const Peta = () => {
   return (
     <div>
       <Helmet>
-        <title>Maps</title>
+        <title>Peta</title>
       </Helmet>
-      <h1>Maps</h1>
+      <h1>Peta</h1>
     </div>
   );
 };
 
-export default Maps;
+export default Peta;

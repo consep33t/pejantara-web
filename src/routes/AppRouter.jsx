@@ -4,9 +4,9 @@ import NotFound from "../pages/NotFound";
 import Beranda from "../pages/Beranda/Beranda";
 import Edukasi from "../pages/Edukasi/Edukasi";
 import Berita from "../pages/Berita/Berita";
-import Maps from "../pages/maps/maps";
 import Login from "../pages/login/Login";
 import Register from "../pages/Register/Register";
+import Peta from "../pages/Peta/Peta";
 
 const AppRouter = () => (
   <Router>
@@ -16,7 +16,7 @@ const AppRouter = () => (
         <Route path="/" element={<Beranda />} />
         <Route path="/edukasi" element={<Edukasi />} />
         <Route path="/berita" element={<Berita />} />
-        <Route path="/maps" element={<Maps />} />
+        <Route path="/peta" element={<Peta />} />
       </Route>
 
       {/* Rute untuk NotFound */}
