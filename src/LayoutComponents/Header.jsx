@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
-import BtnPrimary from "./BtnPrimary";
-import BtnSecondary from "./BtnSecondary";
+import BtnPrimary from "../components/BtnPrimary";
 
 const Header = () => {
   return (
@@ -43,8 +42,8 @@ const Header = () => {
           </li>
         </ul>
         <div className="profile flex gap-5 h-full p-3 items-end text-xl">
-          <BtnPrimary>Register</BtnPrimary>
-          <BtnSecondary>Login</BtnSecondary>
+          <BtnPrimary type="primary">Register</BtnPrimary>
+          <BtnPrimary type="secondary">Register</BtnPrimary>
         </div>
       </nav>
     </header>
