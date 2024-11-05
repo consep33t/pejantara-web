@@ -1,7 +1,10 @@
 import RadioFaq from "../components/RadioFaq";
 import SectionLayout from "./SectionLayout";
+import data from "../data/pertanyaanUmum";
 
 const PertanyaanUmum = () => {
+  const dataPertanyaan = data;
+
   return (
     <SectionLayout
       paragraph="Temukan jawaban untuk pertanyaan umum seputar Pejantara. Kami
@@ -9,7 +12,15 @@ const PertanyaanUmum = () => {
           memulai kehidupan lingkungan yang bersih. Jika Anda tidak menemukan
           jawaban yang diinginkan, silahkan hubungi tim kami!"
       style="radio-container mt-20 w-full space-y-2"
-      content={<RadioFaq />}
+      content={dataPertanyaan.slice(0, 5).map((pertanyaan) => {
+        return (
+          <RadioFaq
+            key={pertanyaan.id}
+            pertanyaan={pertanyaan.question}
+            jawaban={pertanyaan.answer}
+          />
+        );
+      })}
     >
       Pertanyaan Umum
     </SectionLayout>

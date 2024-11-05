@@ -7,6 +7,7 @@ import Berita from "../pages/Berita/Berita";
 import Login from "../pages/login/Login";
 import Register from "../pages/Register/Register";
 import Peta from "../pages/Peta/Peta";
+import TentangKami from "../pages/TentangKami/TentangKami";
 
 const AppRouter = () => (
   <Router>
@@ -17,6 +18,7 @@ const AppRouter = () => (
         <Route path="/edukasi" element={<Edukasi />} />
         <Route path="/berita" element={<Berita />} />
         <Route path="/peta" element={<Peta />} />
+        <Route path="/tentang-kami" element={<TentangKami />} />
       </Route>
 
       {/* Rute untuk NotFound */}

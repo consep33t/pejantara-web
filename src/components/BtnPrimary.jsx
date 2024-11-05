@@ -1,4 +1,5 @@
 import PropTypes from "prop-types";
+import { Link } from "react-router-dom";
 
 const BtnPrimary = ({ children, type = "primary" }) => {
   const buttonClass =
@@ -7,11 +8,11 @@ const BtnPrimary = ({ children, type = "primary" }) => {
       : "btn bg-primary border-2 border-primary text-background hover:text-accent hover:bg-background hover:border-primary hover:scale-105 font-semibold text-xl pb-1 text-left rounded-xl w-36 h-12";
 
   return (
-    <a href={`/${children}`}>
+    <Link to={`/${children}`}>
       <button type="button" className={buttonClass}>
         {children}
       </button>
-    </a>
+    </Link>
   );
 };
 
