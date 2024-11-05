@@ -5,8 +5,7 @@ const Berita = () => {
       <Helmet>
         <title>Berita Page</title>
       </Helmet>
-      <h1>Berita Page</h1>
-      <p>Get in touch with us via this Berita page.</p>
+      <div className="Berita w-full h-screen">Berita</div>
     </div>
   );
 };
